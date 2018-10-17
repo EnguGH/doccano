@@ -76,7 +76,7 @@ class DataUpload(SuperUserMixin, LoginRequiredMixin, TemplateView):
             elif import_format == 'json':
                 form_data = json.load(request.FILES['file'].file)
                 Document.objects.bulk_create([
-                    Document(text=entry, project=project)
+                    Document(text=entry.strip(), project=project)
                     for entry in form_data
                 ])
             return HttpResponseRedirect(reverse('dataset', args=[project.id]))
