@@ -1,5 +1,8 @@
 # doccano
 
+This is a fork from [Hironsan](https://github.com/Hironsan)'s origial [repository](https://github.com/chakki-works/doccano) for offline labeling.
+This project is not always maintained up-to-date. Please see original repository for latest features and issues.
+
 doccano is an open source text annotation tool for human. It provides annotation features for text classification, sequence labeling and sequence to sequence. So, you can create labeled data for sentiment analysis, named entity recognition, text summarization and so on. Just create project, upload data and start annotation. You can build dataset in hours.
 
 ## Demo
@@ -145,6 +148,5 @@ As with any software, doccano is under continuous development. If you have reque
 
 ## Contact
 
-For help and feedback, please feel free to contact [the author](https://github.com/Hironsan).
+For help and feedback, please feel free to contact [the original author](https://github.com/Hironsan).
 
-**If you are favorite to doccano, please follow my [GitHub](https://github.com/Hironsan) and [Twitter](https://twitter.com/Hironsan13) account.**

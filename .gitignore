@@ -134,9 +134,7 @@ venv.bak/
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/dictionaries
+.idea/
 
 # Sensitive or high-churn files:
 .idea/**/dataSources/
@@ -193,3 +191,6 @@ pip-selfcheck.json
 
 /data/raw/*
 /data/sparql/*
+
+# Node modules
+/app/server/node_modules/
