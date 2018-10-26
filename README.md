@@ -50,8 +50,15 @@ $ pip install -r requirements.txt
 $ cd app
 ```
 
-First we’ll need to create a user who can login to the admin site. Run the following command:
 
+Front can be rebuilt using the following command, but a built bundle is already available in the repo:
+```
+$ cd server
+$ npm install
+$ npx webpack --config webpack.config.js
+```
+
+Then we’ll need to create a user who can login to the admin site. Run the following command:
 
 ```bash
 $ python manage.py createsuperuser
@@ -86,6 +93,7 @@ Let’s start the development server and explore it.
 If the server is not running start it like so:
 
 ```bash
+$ cd ..
 $ python manage.py runserver
 ```
 

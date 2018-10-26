@@ -1,4 +1,6 @@
 import Vue from 'vue';
+import _ from 'lodash';
+import marked from 'marked';
 import HTTP from './http';
 
 const vm = new Vue({

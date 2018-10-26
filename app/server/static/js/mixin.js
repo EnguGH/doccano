@@ -1,3 +1,4 @@
+import marked from 'marked';
 import HTTP from './http';
 
 const annotationMixin = {
