@@ -8,10 +8,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.4.2",
     "axios": "^0.18.0",
     "bulma": "^0.7.2",
     "chart.js": "^2.7.2",
-    "font-awesome": "^4.7.0",
     "lodash": "^4.17.11",
     "marked": "^0.5.1",
     "swiper": "^4.4.1",

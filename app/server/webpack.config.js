@@ -48,6 +48,7 @@ module.exports = [
         },
         output: {
             path: __dirname + '/static/bundle',
+            publicPath: '/static/bundle/',
             filename: '[name].js'
         },
         module: {
@@ -63,7 +64,7 @@ module.exports = [
                     test: /\.(svg|webp|gif|eot|otf|ttf|woff|woff2|ani)$/,
                     loader: 'file-loader',
                     options: {
-                        name: '[name]',
+                        name: '[name].[ext]',
                         limit: 10000
                     }
                 },
